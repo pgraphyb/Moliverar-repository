@@ -1,0 +1,87 @@
+@media only screen and (max-width: 850px){
+
+    p{
+        font-size: 14px;
+    }
+
+    .titulo{
+        font-size: 32px;
+        line-height: 30px;
+        color: #f1f1f1;
+    }
+
+    .subtitulo{
+        font-size: 18px;
+        color: #f1f1f1;
+    }
+    
+    .descripcion{
+        line-height: 1.5em;
+        color: #f1f1f1;
+    }
+
+    .btn{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .primary{
+        border: 2px solid #C8BF42;
+    }
+
+    .primary:hover{
+        border: 2px solid #8C873A;
+    }
+
+    .secondary{
+        border: 2px solid #C8BF42;
+    }
+
+    .secondary:hover{
+        border: 2px solid #8C873A;
+    }
+
+    .input-submit{
+        border: 2px solid #BA5656;
+    }
+
+    .input-submit:hover{
+        border: 2px solid #B03939;
+    }
+
+    .grid-form{
+        grid-template-columns: 3% 1fr 3%;
+    }
+
+    .formulario{
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    .input-box{
+        height: 24px;
+        width: auto;
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+
+    .grid-producto{
+        grid-template-columns: 10% 1fr 10% ;
+        grid-template-rows: 30px 1fr 30px;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .content{
+        background-image: url(/imagenes/aceite1.png);
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.156);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        padding: 20px;
+        min-height: 400px;
+
+    }
+}
